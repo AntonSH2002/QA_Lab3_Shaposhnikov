@@ -1,0 +1,4 @@
+<map id="QA_Lab3.Econom_Wagon.Display" name="QA_Lab3.Econom_Wagon.Display">
+<area shape="rect" id="node1" title="Вывод информации о плацкартном вагоне" alt="" coords="236,5,459,31"/>
+<area shape="rect" id="node2" href="$class_q_a___lab3_1_1_train.html#aed6307753b7452b96771fee5343e983d" title="Вывод информации о поезде" alt="" coords="5,5,188,31"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="QA_Lab3.Wagon" name="QA_Lab3.Wagon">
+<area shape="rect" id="node1" title="Абстрактный класс для описания вагонов" alt="" coords="130,5,251,31"/>
+<area shape="rect" id="node2" href="$class_q_a___lab3_1_1_econom___wagon.html" title="Класс плацкартного вагона" alt="" coords="5,79,181,104"/>
+<area shape="rect" id="node3" href="$class_q_a___lab3_1_1_wagon___coupe.html" title="Вагон купе, наследуемый от абстрактоного для описания вагонов" alt="" coords="205,79,371,104"/>
+</map>

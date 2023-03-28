@@ -1,0 +1,5 @@
+<map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
+<area shape="rect" id="node1" href="$class_q_a___lab3_1_1_wagon.html" title="Абстрактный класс для описания вагонов" alt="" coords="5,31,127,56"/>
+<area shape="rect" id="node2" href="$class_q_a___lab3_1_1_econom___wagon.html" title="Класс плацкартного вагона" alt="" coords="175,5,351,31"/>
+<area shape="rect" id="node3" href="$class_q_a___lab3_1_1_wagon___coupe.html" title="Вагон купе, наследуемый от абстрактоного для описания вагонов" alt="" coords="180,55,345,80"/>
+</map>

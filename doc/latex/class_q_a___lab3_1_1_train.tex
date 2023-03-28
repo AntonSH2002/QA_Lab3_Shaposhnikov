@@ -1,0 +1,127 @@
+\hypertarget{class_q_a___lab3_1_1_train}{}\doxysection{Класс QA\+\_\+\+Lab3.\+Train}
+\label{class_q_a___lab3_1_1_train}\index{QA\_Lab3.Train@{QA\_Lab3.Train}}
+
+
+Класс поезда  
+
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_q_a___lab3_1_1_train_ae8d99f120513a3ca38782e24ce26f0b4}{Train}} (string machinist, string route, int quantity\+\_\+coupe, int quantity\+\_\+econom)
+\begin{DoxyCompactList}\small\item\em Конструктор поезда \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_q_a___lab3_1_1_train_a1ba2e204ff387b01010aac16c5a03b02}{Set\+Wagon\+Coupe}} (string\mbox{[}$\,$\mbox{]} serial\+\_\+number, int\mbox{[}$\,$\mbox{]} seats, double\mbox{[}$\,$\mbox{]} price, string\mbox{[}$\,$\mbox{]} conductor)
+\begin{DoxyCompactList}\small\item\em Определение вагонов-\/купе в поезде \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_q_a___lab3_1_1_train_a8fca2ee30c0eceb3ac9854e3f82467fa}{Set\+Econom\+Wagon}} (string\mbox{[}$\,$\mbox{]} serial\+\_\+number, int\mbox{[}$\,$\mbox{]} seats, double\mbox{[}$\,$\mbox{]} price, string\mbox{[}$\,$\mbox{]} conductor)
+\begin{DoxyCompactList}\small\item\em Определение плацкартного вагона в поезде \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_q_a___lab3_1_1_train_aed6307753b7452b96771fee5343e983d}\label{class_q_a___lab3_1_1_train_aed6307753b7452b96771fee5343e983d}} 
+void {\bfseries Display\+Train} ()
+\begin{DoxyCompactList}\small\item\em Вывод информации о поезде \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_q_a___lab3_1_1_train_a895392312c4ac2bab23e2c842c5e5069}{Travel\+Time}} (Date\+Time d1, Date\+Time d2)
+\begin{DoxyCompactList}\small\item\em Расчёт времени поезда в пути \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые атрибуты}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_q_a___lab3_1_1_train_a0580a49ea107ee7e5486fb4e2b8d807d}\label{class_q_a___lab3_1_1_train_a0580a49ea107ee7e5486fb4e2b8d807d}} 
+Date\+Time {\bfseries date1}
+\begin{DoxyCompactList}\small\item\em Дата отбытия поезда \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_q_a___lab3_1_1_train_a8c04db328a8bc0dc651f0ee61385add2}\label{class_q_a___lab3_1_1_train_a8c04db328a8bc0dc651f0ee61385add2}} 
+Date\+Time {\bfseries date2}
+\begin{DoxyCompactList}\small\item\em Дата прибытия поезда \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс поезда 
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{class_q_a___lab3_1_1_train_ae8d99f120513a3ca38782e24ce26f0b4}\label{class_q_a___lab3_1_1_train_ae8d99f120513a3ca38782e24ce26f0b4}} 
+\index{QA\_Lab3.Train@{QA\_Lab3.Train}!Train@{Train}}
+\index{Train@{Train}!QA\_Lab3.Train@{QA\_Lab3.Train}}
+\doxysubsubsection{\texorpdfstring{Train()}{Train()}}
+{\footnotesize\ttfamily QA\+\_\+\+Lab3.\+Train.\+Train (\begin{DoxyParamCaption}\item[{string}]{machinist,  }\item[{string}]{route,  }\item[{int}]{quantity\+\_\+coupe,  }\item[{int}]{quantity\+\_\+econom }\end{DoxyParamCaption})}
+
+
+
+Конструктор поезда 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em machinist} & Машинист\\
+\hline
+\end{DoxyParams}
+ 
+\begin{DoxyParams}{Аргументы}
+{\em route} & Направление\\
+\hline
+{\em quantity\+\_\+coupe} & Количество вагонов купе\\
+\hline
+{\em quantity\+\_\+econom} & Количество плацкартных вагонов\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_q_a___lab3_1_1_train_a8fca2ee30c0eceb3ac9854e3f82467fa}\label{class_q_a___lab3_1_1_train_a8fca2ee30c0eceb3ac9854e3f82467fa}} 
+\index{QA\_Lab3.Train@{QA\_Lab3.Train}!SetEconomWagon@{SetEconomWagon}}
+\index{SetEconomWagon@{SetEconomWagon}!QA\_Lab3.Train@{QA\_Lab3.Train}}
+\doxysubsubsection{\texorpdfstring{SetEconomWagon()}{SetEconomWagon()}}
+{\footnotesize\ttfamily void QA\+\_\+\+Lab3.\+Train.\+Set\+Econom\+Wagon (\begin{DoxyParamCaption}\item[{string\mbox{[}$\,$\mbox{]}}]{serial\+\_\+number,  }\item[{int\mbox{[}$\,$\mbox{]}}]{seats,  }\item[{double\mbox{[}$\,$\mbox{]}}]{price,  }\item[{string\mbox{[}$\,$\mbox{]}}]{conductor }\end{DoxyParamCaption})}
+
+
+
+Определение плацкартного вагона в поезде 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em serial\+\_\+number} & Серийный номер\\
+\hline
+{\em seats} & Количество мест для размещения пассажиров в плацкартном вагоне\\
+\hline
+{\em price} & Цена за место в плацкартном вагоне\\
+\hline
+{\em conductor} & Проводник плацкартного вагона\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_q_a___lab3_1_1_train_a1ba2e204ff387b01010aac16c5a03b02}\label{class_q_a___lab3_1_1_train_a1ba2e204ff387b01010aac16c5a03b02}} 
+\index{QA\_Lab3.Train@{QA\_Lab3.Train}!SetWagonCoupe@{SetWagonCoupe}}
+\index{SetWagonCoupe@{SetWagonCoupe}!QA\_Lab3.Train@{QA\_Lab3.Train}}
+\doxysubsubsection{\texorpdfstring{SetWagonCoupe()}{SetWagonCoupe()}}
+{\footnotesize\ttfamily void QA\+\_\+\+Lab3.\+Train.\+Set\+Wagon\+Coupe (\begin{DoxyParamCaption}\item[{string\mbox{[}$\,$\mbox{]}}]{serial\+\_\+number,  }\item[{int\mbox{[}$\,$\mbox{]}}]{seats,  }\item[{double\mbox{[}$\,$\mbox{]}}]{price,  }\item[{string\mbox{[}$\,$\mbox{]}}]{conductor }\end{DoxyParamCaption})}
+
+
+
+Определение вагонов-\/купе в поезде 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em serial\+\_\+number} & Серийный номер поезда\\
+\hline
+{\em seats} & Количество мест для размещения пассажиров в вагоне-\/купе\\
+\hline
+{\em price} & Цена за место в вагоне-\/купе\\
+\hline
+{\em conductor} & Проводник вагона-\/купе\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_q_a___lab3_1_1_train_a895392312c4ac2bab23e2c842c5e5069}\label{class_q_a___lab3_1_1_train_a895392312c4ac2bab23e2c842c5e5069}} 
+\index{QA\_Lab3.Train@{QA\_Lab3.Train}!TravelTime@{TravelTime}}
+\index{TravelTime@{TravelTime}!QA\_Lab3.Train@{QA\_Lab3.Train}}
+\doxysubsubsection{\texorpdfstring{TravelTime()}{TravelTime()}}
+{\footnotesize\ttfamily void QA\+\_\+\+Lab3.\+Train.\+Travel\+Time (\begin{DoxyParamCaption}\item[{Date\+Time}]{d1,  }\item[{Date\+Time}]{d2 }\end{DoxyParamCaption})}
+
+
+
+Расчёт времени поезда в пути 
+
+$времяПути = датаПрибытия - датаОтбытия$ 
+\begin{DoxyParams}{Аргументы}
+{\em d1} & Дата отбытия\\
+\hline
+{\em d2} & Дата прибытия\\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/tonis/source/repos/\+QA\+\_\+\+Lab3/\+QA\+\_\+\+Lab3/Train.\+cs\end{DoxyCompactItemize}
